@@ -1,3 +1,31 @@
+body {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png");
+}
+
+.container {
+    max-width: 960px;
+}
+
+.header {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+.main-content {
+    background-color: #ffffff;
+    padding-top: 40px;
+}
+
+
 .about-me {
     padding-left: 15px;
     padding-right: 15px;
@@ -5,5 +33,4 @@
 
 .profile-pic {
     padding-right: 15px;
-    /* background-color: red; */
 }

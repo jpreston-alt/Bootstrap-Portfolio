@@ -1,11 +1,16 @@
+/* all pages */
+
+
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png");
 }
 
 .container {
     max-width: 960px;
+
 }
 
+/* nav bar header */
 .header {
     background-color: #ffffff;
     margin-bottom: 50px;
@@ -16,31 +21,56 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
+/* Jumbotron all pages */
 .main-content {
     background-color: #ffffff;
     padding-top: 40px;
 }
 
+/* footer all pages */
+footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
 
+}
+
+
+/* ABOUT ME PAGE */
+/* About me text/content */
 .about-me {
     padding-left: 15px;
     padding-right: 15px;
 }
 
+/* pic of me on about me page */
 .profile-pic {
     padding-right: 15px;
 }
 
 
+/* PORTFOLIO PAGE */
+/* portfolio placeholder images */
+.portfolio-img {
+    padding-bottom: 20px;
+}
 
+.thumbnail {
+    position: relative;
+}
 
-
-
-
-footer {
-    background-color: #666666;
+/* Project name banner over photo */
+.caption {
+  position: absolute;
+  bottom: 5%;
+  left: 0;
+  background-color: #4aaaa5;
+  width: 100%;
+  padding: 10px;
+  color: #ffffff;
 }

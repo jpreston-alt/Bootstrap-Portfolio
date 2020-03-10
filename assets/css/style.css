@@ -3,6 +3,8 @@
 
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/white-waves.png");
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
 }
 
 .container {
@@ -14,17 +16,34 @@ body {
 .header {
     background-color: #ffffff;
     margin-bottom: 50px;
-    padding: 20px;
+    border-bottom: 2px solid #cccccc;
+    padding: 0px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: bolder;
 }
 
 h1 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #4aaaa5;
 }
 
 
-h2 {
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    font-size: 20px;
+a {
+    color: #777777;
 }
 
 /* Jumbotron all pages */
@@ -37,7 +56,6 @@ h2 {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-
 }
 
 
@@ -64,13 +82,21 @@ footer {
     position: relative;
 }
 
+h3 {
+    font-size: 22px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
+}
 /* Project name banner over photo */
 .caption {
-  position: absolute;
-  bottom: 5%;
-  left: 0;
-  background-color: #4aaaa5;
-  width: 100%;
-  padding: 10px;
-  color: #ffffff;
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
 }
+

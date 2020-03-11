@@ -16,6 +16,10 @@ body {
     border-bottom: 2px solid #cccccc;
 }
 
+.navbar-nav {
+    padding-right: 20px;
+}
+
 /* navbar-brand and h1- my name */
 .navbar-brand {
     padding: 0px;
@@ -41,6 +45,7 @@ a {
     background-color: #ffffff;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 20px;
 }
 
 /* Main content header */
@@ -59,6 +64,8 @@ footer {
 }
 
 
+
+
 /* ABOUT ME PAGE */
 /* About me text/content */
 .about-me {
@@ -72,17 +79,28 @@ footer {
 }
 
 
+
+
 /* PORTFOLIO PAGE */
-/* portfolio placeholder images */
-.portfolio-img {
-    padding-bottom: 20px;
-}
-
-.thumbnail {
-    position: relative;
-}
-
 /* Project name banner over photo (h3 & .caption */
+
+.portfolio-img {
+    padding-bottom: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    width: 100%;
+    padding: 5%;
+    color: #ffffff;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background-color: #4aaaa5;
+}
+
 h3 {
     font-size: 22px;
     color: #ffffff;
@@ -90,23 +108,13 @@ h3 {
     background-color: #4aaaa5;
 }
 
-.caption {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    width: 100%;
-    padding: 10px;
-    color: #ffffff;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    background-color: #4aaaa5;
-}
 
 
 
 /* Media Queries */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 720px;
+
         float: left;
         margin-left: 20px;
         margin-right: 20px;

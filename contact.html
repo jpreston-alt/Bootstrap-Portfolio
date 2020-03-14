@@ -15,8 +15,8 @@
     
     <!-- Linking my CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
+
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light header">
@@ -24,11 +24,13 @@
             <a class="navbar-brand" href="#">
                 <h1>Joanna Preston</h1>
             </a>
+            <!-- Hamburger -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
+        <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="contact.html">Contact<span class="sr-only">(current)</span></a>
@@ -39,16 +41,16 @@
     </nav>
 
     <!-- Main Content -->
-    <div class = "container">
+    <main class = "container">
         <div class="jumbotron main-content col-md-8 col-lg-8">
-            <h2 class=>Contact</h2>
+            <h2>Contact</h2>
             <hr class="my-4">
             <!-- Input Form -->
             <form>
                 <!-- Name input form -->
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Name</label>
-                    <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
                 </div>
                 <!-- Email input form -->
                 <div class="form-group">
@@ -58,13 +60,13 @@
                 <!-- Message input form -->
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Message"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="Message"></textarea>
                 </div>
                 <!-- Submit button -->
                 <input class="btn btn-primary" type="submit" value="Submit">
             </form>
         </div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="py-4 text-white-50">
@@ -73,6 +75,7 @@
         </div>
     </footer>
 
+    <!-- linking Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -82,10 +85,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-
-
-
-
-
 </body>
 </html>

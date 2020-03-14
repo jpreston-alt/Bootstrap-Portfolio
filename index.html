@@ -7,31 +7,31 @@
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>My Portfolio</title>
+    <title>Joanna Preston</title>
 
     <!-- Linking Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <!-- Linking my CSS -->
+    <!-- Linking my CSS after Bootstrap-->
     <link rel = "stylesheet" href = "assets/css/style.css">
-
 </head>
 
 <body>
-<body>
     <!-- Navigation Bar -->
-        
     <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- This container holds my name and the hamburger menu so my name lines up with main content and so they stay on the same line when the screen is small -->
         <div class="container">
             <a class="navbar-brand" href="#">
                 <h1>Joanna Preston</h1>
             </a>
+            <!-- Hambuger -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-        <div class="collapse navbar-collapse text-right" id="navbarNavAltMarkup">
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
                 <a class="nav-item nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>
                 <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
@@ -42,38 +42,31 @@
 
 
     <!-- Main Content -->
-    <div class="container">
+    <main class="container">
         <div class="jumbotron overflow-auto main-content col-md-8 col-lg-8">
             <h2>About me</h2>
             <hr class="my-4">
             <div class = 'row'>
                 <div class = 'col'>
                     <!-- Profile Picture -->
-                    <div class="col-lg-4">
+                    <!-- This column controls size of picture the when screen width reaches 768. Image floated left so text will wrap around it. -->
+                    <div class="col-md-6">
                         <img src="assets/images/me.jpg" class="img-fluid float-left profile-pic" alt="Responsive image">
                     </div>
-                    <!-- About me section -->
+                    <!-- About me content -->
                     <div class = "about-me">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vitae lectus risus. Nulla aliquam, nulla e pellentesque
-                            pretium, arcu neque egestas dui, ut malesuada arcu justo ac sapien. Cras a sem ut sem viverra ullamcorper. Ut vel
-                            aliquam magna, vel condimentum turpis. Ut urna magna, bibendum vitae fringilla at, commodo accumsan velit. Aliquam
-                            ullamcorper tortor lectus, quis ultricies ipsum auctor nec. Nunc vitae maximus lorem. Morbi vehicula sapien quis
-                            tortor volutpat eleifend. Aliquam sit amet hendrerit lacus.
+                            Hi! Welcome to my first website, I'm pretty stoked about it. My name's Joanna and I was born in Nevada, raised in Oregon, and have been living in Seattle for the past 8 years. I moved up here to attend school at the University of Washington and never left because it's the best, and you can ride your bike to work year round!
                             <br><br>
-                            Integer porta velit orci, quis efficitur felis maximus in. Morbi venenatis mauris vitae metus tincidunt, quis
-                            imperdiet ante gravida. Nam ultrices, nibh sit amet molestie rutrum, lacus est porta dui, a vehicula risus tortor
-                            vitae magna. Morbi condimentum luctus erat, vitae feugiat tortor aliquam bibendum. Cras dignissim tempus metus, id
-                            molestie urna. Donec in eros gravida, egestas tortor ut, fermentum erat. Pellentesque habitant morbi tristique
-                            senectus et netus et malesuada fames ac turpis egestas. Sed dapibus malesuada risus sed pellentesque. Praesent risus
-                            ex, tempor sit amet elit vitae, tempus maximus libero. Duis gravida auctor est, blandit varius massa pretium eget.
-                            Vestibulum ac purus tempor, malesuada ante eu, dignissim ante. Cras eu venenatis ligula. 
+                            After graduating from UW I got a job with Urban Outfitters as a Display Artist designing fixtures and displays. I currently oversee the design of our four Seattle area stores, and I spend my days designing and building. My career in design has taught me how to learn quickly, creatively solve problems, and to enjoy doing so! It's this love of problem solving, and a lifelong interest in how things work, that got me interested in a career in web development. I've always loved making things, and the idea of learning to make in a whole new medium is so exciting to me.
+                            <br><br>
+                            Outside of work and class I love to ride my bike, cook, read, craft, and chill with the coolest dog in the world: Bug. Other obsessions include Stuff You Should Know, coffee, Queen, How I Met Your Mother, and now coding. I'm very excited about this class and about learning all the things!
                         </p>
                     </div>
                 </div>
             </div>   
         </div>
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="py-4 text-white-50">
@@ -82,6 +75,7 @@
         </div>
     </footer>
 
+    <!-- Linking Bootstrap JavaScript -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>

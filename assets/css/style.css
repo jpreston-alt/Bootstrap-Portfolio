@@ -73,9 +73,7 @@ footer {
   padding-bottom: 15px;
 }
 
-
 /* PORTFOLIO PAGE */
-
 /* width set to 100% so that it is the full width of it's parent div, this way the project-title banner will be the full width of the image at all sizes */
 .portfolio-img {
     padding-bottom: 15px;
@@ -105,7 +103,6 @@ footer {
 .btn:hover {
     background-color: #666666;
 }
-
 
 /* Media Queries */
 @media screen and (min-width: 768px) {

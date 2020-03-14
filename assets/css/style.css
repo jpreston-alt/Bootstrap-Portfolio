@@ -8,8 +8,8 @@ body {
 /* Full navbar */
 .navbar {
     padding: 0px;
+    margin-bottom: 40px;
     background-color: white;
-    margin-bottom: 2rem;
     border-bottom: 2px solid #cccccc;
 }
 
@@ -31,7 +31,7 @@ h1 {
 /* .navbar-nav & a: navbar links */
 .navbar-nav {
     padding-right: 20px;
-    padding-left: 5%;
+    padding-left: 20px;
 }
 
 a {
@@ -41,9 +41,6 @@ a {
 /* Jumbotron: main content all pages */
 .jumbotron {
     background-color: #ffffff;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    margin-top: 20px;
 }
 
 /* Main content header */
@@ -54,11 +51,10 @@ h2 {
     font-weight: bolder;
 }
 
-/* Footer all pages */
+/* Footer all pages (sticky) */
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
-    clear: both;
 }
 
 /* ABOUT ME PAGE */

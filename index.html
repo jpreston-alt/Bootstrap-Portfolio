@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class = "h-100">
 <head>
     <meta charset="UTF-8">
 
@@ -16,7 +16,7 @@
     <link rel = "stylesheet" href = "assets/css/style.css">
 </head>
 
-<body>
+<body class = "d-flex flex-column h-100">
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <!-- This container holds my name and the hamburger menu so my name lines up with main content and so they stay on the same line when the screen is small -->
@@ -41,36 +41,48 @@
     </nav>
 
     <!-- Main Content -->
-    <main class="container">
-        <div class="jumbotron overflow-auto main-content col-md-8 col-lg-8">
-            <h2>About me</h2>
-            <hr class="my-4">
-            <div class = 'row'>
-                <div class = 'col'>
-                    <!-- Profile Picture -->
-                    <!-- This column controls size of picture the when screen width reaches 768. Image floated left so text will wrap around it. -->
-                    <div class="col-md-6">
-                        <img src="assets/images/me.jpg" class="img-fluid float-left profile-pic" alt="Responsive image">
-                    </div>
-                    <!-- About me content -->
-                    <div class = "about-me">
-                        <p>
-                            Hi! Welcome to my first website, I'm pretty stoked about it. My name's Joanna and I was born in Nevada, raised in Oregon, and have been living in Seattle for the past 8 years. I moved up here to attend school at the University of Washington and never left because it's the best, and you can ride your bike to work year round!
-                            <br><br>
-                            After graduating from UW I got a job with Urban Outfitters as a Display Artist designing fixtures and displays. I currently oversee the design of our four Seattle area stores, and I spend my days designing and building. My career in design has taught me how to learn quickly, creatively solve problems, and to enjoy doing so! It's this love of problem solving, and a lifelong interest in how things work, that got me interested in a career in web development. I've always loved making things, and the idea of learning to make in a whole new medium is so exciting to me.
-                            <br><br>
-                            Outside of work and class I love to ride my bike, cook, read, craft, and chill with the coolest dog in the world: Bug. Other obsessions include Stuff You Should Know, coffee, Queen, How I Met Your Mother, and now coding. I'm very excited about this class and about learning all the things!
-                        </p>
+    <main role = "main" class="flex-shrink-0">
+        <div class = "container">
+            <div class="jumbotron overflow-auto main-content col-md-8 col-lg-8">
+                <h2>About me</h2>
+                <hr class="my-4">
+                <div class='row'>
+                    <div class='col'>
+                        <!-- Profile Picture -->
+                        <!-- This column controls size of picture the when screen width reaches 768. Image floated left so text will wrap around it. -->
+                        <div class="col-md-6">
+                            <img src="assets/images/me.jpg" class="img-fluid float-left profile-pic" alt="Responsive image">
+                        </div>
+                        <!-- About me content -->
+                        <div class="about-me">
+                            <p>
+                                Hi! Welcome to my first website, I'm pretty stoked about it. My name's Joanna and I was born in
+                                Nevada, raised in Oregon, and have been living in Seattle for the past 8 years. I moved up here to
+                                attend school at the University of Washington and never left because it's the best, and you can ride
+                                your bike to work year round!
+                                <br><br>
+                                After graduating from UW I got a job with Urban Outfitters as a Display Artist designing fixtures
+                                and displays. I currently oversee the design of our four Seattle area stores, and I spend my days
+                                designing and building. My career in design has taught me how to learn quickly, creatively solve
+                                problems, and to enjoy doing so! It's this love of problem solving, and a lifelong interest in how
+                                things work, that got me interested in a career in web development. I've always loved making things,
+                                and the idea of learning to make in a whole new medium is so exciting to me.
+                                <br><br>
+                                Outside of work and class I love to ride my bike, cook, read, craft, and chill with the coolest dog
+                                in the world: Bug. Other obsessions include Stuff You Should Know, coffee, Queen, How I Met Your
+                                Mother, and now coding. I'm very excited about this class and about learning all the things!
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </div>   
+            </div>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="py-4 text-white-50">
+    <footer class="footer mt-auto py-3">
         <div class="container-fluid text-center">
-            <small>Copyright &copy;</small>
+            <small>&copy; Copyright</small>
         </div>
     </footer>
 

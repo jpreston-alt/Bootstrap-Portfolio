@@ -101,6 +101,10 @@ footer {
     background-color: #666666;
 }
 
+.full {
+    height: 100%;
+}
+
 /* Media Queries */
 @media screen and (min-width: 768px) {
     .container {
@@ -116,7 +120,7 @@ footer {
 }
 
 @media screen and (max-width: 414px) {
-    .h-100 {
-        max-height: 80%;
+    .full {
+        height: 80%;
     }
 }

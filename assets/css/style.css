@@ -101,17 +101,6 @@ footer {
     background-color: #666666;
 }
 
-/* .full {
-    height: 80%;
-} */
-
-/* Media Queries */
-/* @media screen and (min-width: 415px) {
-    .full {
-        height: 100%;
-    }
-} */
-
 @media screen and (min-width: 768px) {
     .container {
         /* Floats main content container to the left when screen size reaches 768px */

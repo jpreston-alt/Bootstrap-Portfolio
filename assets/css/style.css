@@ -55,6 +55,7 @@ h2 {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+    clear: both;
 }
 
 /* ABOUT ME PAGE */

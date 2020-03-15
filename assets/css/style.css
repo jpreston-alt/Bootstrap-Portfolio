@@ -102,10 +102,16 @@ footer {
 }
 
 .full {
-    height: 100%;
+    height: 80%;
 }
 
 /* Media Queries */
+@media screen and (min-width: 415px) {
+    .full {
+        height: 100%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .container {
         /* Floats main content container to the left when screen size reaches 768px */
@@ -116,11 +122,5 @@ footer {
     .profile-pic {
         padding-right: 18px;
         padding-bottom: 0px;
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .full {
-        height: 80%;
     }
 }

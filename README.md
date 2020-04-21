@@ -13,8 +13,5 @@ Building this website taught me so much about working with CSS frameworks, build
 * HTML5
 * CSS3
 
-
-<!-- 
-This homework assignment required us to build a responsive webpage to show our portfolio of projects that we are going to be making in this class. The assignemnt was to have three different pages (about me, portfolio, and contact), and to make it look as close to the images provided as possible. In order to make our webpage responsive we had to make sure that our page looked good on any size device or screen width.
-
-We used the CSS framework Bootstrap to style and layout our page, and added our own CSS style sheet to make small adjustments. We learned that the beaufy of frameworks is that they have already built in UI features and mobile reponsiveness. This assignment taught me alot about page layout, working with frameworks, Bootstrap grid, google-fu, and responsive web design.  -->
+## Deployed Site 
+https://jpreston-alt.github.io/Bootstrap-Portfolio/
